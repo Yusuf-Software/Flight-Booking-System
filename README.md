@@ -42,7 +42,7 @@
 
 
 
-### 6-Agency Sales Person
+### 6- Agency Sales Person
 
 1. Can search for tickets as described in Customer Section.
 2. Hold tickets for a period of time, and then buy or cancel the PNR.
