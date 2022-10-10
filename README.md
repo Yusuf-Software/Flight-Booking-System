@@ -11,6 +11,7 @@ Roles Following are implemented:
  7.Customer
 
 ### 1.Airline Admin:
+
   1. Airline Admin can schedule flights on a particular dates or according to the source and destination.
   2. Airline Admin will set the prices of the seats. There should be three types of seats:
     a.  First Class
@@ -24,7 +25,6 @@ Roles Following are implemented:
 
 
 ### 2.Airline Manager
-
 
 1. Airline Manager should see a list of seats which the Admin has added or edited when he/she logs in
 2. Airline Manager then needs to approve the new price or updates.
