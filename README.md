@@ -86,7 +86,7 @@ This is for just one airline who wants to sell seats to their customers via inte
 
 ## Authors
 * Koshyar Abdulrahman
-* Yusuf Software
+* Yousif Dhahir
 * Zryan Mohammed
 * Rawa Osman
 * Blnd Fakhir
