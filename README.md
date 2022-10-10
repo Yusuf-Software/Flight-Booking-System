@@ -31,6 +31,22 @@
 3. When the price and update is approved by the manager only then it should be available for the customer to buy.
 
 
+###  3-Airline Accountant
+
+
+1. Airline Accountant should be able to Manage and Track Transactions.
+2. Airline Accountant should be able to Deposit/Withdraw balance to agencies’ wallets.
+3. Block Agencies in case of too much debt.
+
+### 4-Airline Sales Person
+
+
+1. Can search for tickets as described in Customer Section.
+2. Hold tickets for a period of time, and then buy or cancel the PNR.
+3. See and Manage Agencies’ bookings.
+4. Extend hold duration for agencies’ bookings on request.
+
+
 
 ### 5- Agency Admin
 
