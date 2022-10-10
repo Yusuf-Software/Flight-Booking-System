@@ -10,7 +10,7 @@
  6.Agency Sales Person
  7.Customer
 
-### 1- Airline Admin
+### 1. Airline Admin
 
   1. Airline Admin can schedule flights on a particular dates or according to the source and destination.
   2. Airline Admin will set the prices of the seats. There should be three types of seats:
@@ -24,21 +24,21 @@
 
 
 
-### 2- Airline Manager
+### 2. Airline Manager
 
 1. Airline Manager should see a list of seats which the Admin has added or edited when he/she logs in
 2. Airline Manager then needs to approve the new price or updates.
 3. When the price and update is approved by the manager only then it should be available for the customer to buy.
 
 
-###  3-Airline Accountant
+### 3. Airline Accountant
 
 
 1. Airline Accountant should be able to Manage and Track Transactions.
 2. Airline Accountant should be able to Deposit/Withdraw balance to agencies’ wallets.
 3. Block Agencies in case of too much debt.
 
-### 4-Airline Sales Person
+### 4. Airline Sales Person
 
 
 1. Can search for tickets as described in Customer Section.
@@ -48,7 +48,7 @@
 
 
 
-### 5- Agency Admin
+### 5. Agency Admin
 
 1. Manage and Manage their Sales Persons’ bookings.
 2. Manage and see their transactions.
@@ -58,7 +58,7 @@
 
 
 
-### 6- Agency Sales Person
+### 6. Agency Sales Person
 
 1. Can search for tickets as described in Customer Section.
 2. Hold tickets for a period of time, and then buy or cancel the PNR.
