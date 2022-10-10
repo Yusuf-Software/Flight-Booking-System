@@ -29,3 +29,22 @@ Roles Following are implemented:
 1. Airline Manager should see a list of seats which the Admin has added or edited when he/she logs in
 2. Airline Manager then needs to approve the new price or updates.
 3. When the price and update is approved by the manager only then it should be available for the customer to buy.
+
+
+
+### Agency Admin
+
+1. Manage and Manage their Sales Persons’ bookings.
+2. Manage and see their transactions.
+3. Ask for adding balance to their wallet.
+4. Add/Remove Sales Persons accounts belonging to the agency.
+
+
+
+
+### Agency Sales Person
+
+1. Can search for tickets as described in Customer Section.
+2. Hold tickets for a period of time, and then buy or cancel the PNR.
+3. See and manage their bookings.
+4. Ask to extend hold duration.
