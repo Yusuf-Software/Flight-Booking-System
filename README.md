@@ -45,7 +45,7 @@ This is for just one airline who wants to sell seats to their customers via inte
 3. The Airline Admin should be able to create and update the features of each type of seat.
 4. The Airline Admin should be able to set the total number of seats for each flight.
 5. The Airline Admin should be able to Read, Add, Remove and Edit, and Set Status of Flight Reservations as well.
-6. Also the record of today’s flight, departed/arrived flights, and flight issues.
+6. Also the see record of today’s flight, departed/arrived flights, and flight issues.
 
 
 ### 2. Airline Manager
@@ -67,13 +67,13 @@ This is for just one airline who wants to sell seats to their customers via inte
 4. Extend hold duration for agencies’ bookings on request.
 
 ### 5. Agency Admin
-1. Manage and Manage their Sales Persons’ bookings.
+1. See their Sales Persons’ bookings.
 2. Manage and see their transactions.
 3. Ask for adding balance to their wallet.
 4. Add/Remove Sales Persons accounts belonging to the agency.
 
 ### 6. Agency Sales Person
-1. Can search for tickets as described in Customer Section.
+1. Can search for tickets as described in Customer Section, with having an amount of commission for particular itineraries.
 2. Hold tickets for a period of time, and then buy or cancel the PNR.
 3. See and manage their bookings.
 4. Ask to extend hold duration.
