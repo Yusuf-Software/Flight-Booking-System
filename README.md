@@ -10,7 +10,7 @@ Roles Following are implemented:
  6.Agency Sales Person
  7.Customer
 
-### 1- Airline Admin:
+### 1- Airline Admin
 
   1. Airline Admin can schedule flights on a particular dates or according to the source and destination.
   2. Airline Admin will set the prices of the seats. There should be three types of seats:
