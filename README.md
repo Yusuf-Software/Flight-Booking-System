@@ -20,3 +20,12 @@ Roles Following are implemented:
    4. The Airline Admin should be able to set the total number of seats for each flight.
    5. The Airline Admin should be able to Read, Add, Remove and Edit, and Set Status of Flight Reservations as well.
    6. Also the record of today’s flight, departed/arrived flights, and flight issues.
+
+
+
+### Airline Manager
+
+
+1. Airline Manager should see a list of seats which the Admin has added or edited when he/she logs in
+2. Airline Manager then needs to approve the new price or updates.
+3. When the price and update is approved by the manager only then it should be available for the customer to buy.
