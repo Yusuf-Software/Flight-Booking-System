@@ -1,3 +1,4 @@
+package models;
 public class AirlineAdmin extends Person
 {
     private String airlineId;
