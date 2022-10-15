@@ -1,3 +1,4 @@
+package models;
 public class AgencyAdmin extends Person
 {
     private String agencyId;
