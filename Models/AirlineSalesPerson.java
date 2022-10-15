@@ -1,5 +1,6 @@
-import java.awt.*;
 package models;
+import java.awt.*;
+
 
 public class AirlineSalesPerson extends Person
 {
