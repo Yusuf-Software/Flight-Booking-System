@@ -1,3 +1,4 @@
+package models;
 import java.awt.*;
 
 public class SalesPerson extends AirlineSalesPerson
