@@ -1,3 +1,4 @@
+package models;
 public class Seat
 {
     protected String Id, seatNo;
