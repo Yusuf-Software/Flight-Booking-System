@@ -1,5 +1,5 @@
 import java.awt.*;
-
+package models;
 public class AgencySalesPerson extends AirlineSalesPerson
 {
     private String agencyId;
