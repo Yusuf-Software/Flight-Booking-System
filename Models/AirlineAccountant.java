@@ -1,4 +1,4 @@
-
+package models;
 public class AirlineAccountant extends Person
 {
     private String airlineId;
