@@ -33,7 +33,7 @@ public class Passenger extends Person
     private Gender gender;
     private Date DOB;
 
-    public Passenger(String firstName, String lastName, String email, String username, String password, String Id, String phoneNo, Role role, String Id, String nationality, String passportNo, Gender gender, Date DOB)
+    public Passenger(String firstName, String lastName, String email, String username, String password, String Id, String phoneNo, Role role, String nationality, String passportNo, Gender gender, Date DOB)
     {
         super(firstName, lastName, email, username, password, Id, phoneNo, role);
         this.Id = Id;
