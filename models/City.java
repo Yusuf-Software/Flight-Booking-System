@@ -1,5 +1,5 @@
 package models; //package models;
-public record City(int ID, String name) {
+public record City(int ID, String name, Country country) {
 
 }
 

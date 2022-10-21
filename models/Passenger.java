@@ -1,9 +1,11 @@
 package models;
 import java.util.Date;
 
-public class Passenger extends Person
+public class Passenger
 {
-    private String Id ,nationality, passportNo;
+    private String Id ,nationality, passportNo, firstName, surname, phoneNo, email;
+    private final Gender gender;
+    private final Date DOB;
 
     public String getId()
     {
@@ -14,29 +16,41 @@ public class Passenger extends Person
     {
         return nationality;
     }
-
     public String getPassportNo()
     {
         return passportNo;
     }
-
+    public String getFirstName()
+    {
+        return firstName;
+    }
+    public String getSurname()
+    {
+        return surname;
+    }
+    public String getPhone()
+    {
+        return phoneNo;
+    }
+    public String getEmail()
+    {
+        return email;
+    }
     public Gender getGender()
     {
         return gender;
     }
-
     public Date getDOB()
     {
         return DOB;
     }
-
-    private Gender gender;
-    private Date DOB;
-
-    public Passenger(String firstName, String lastName, String email, String username, String password, String Id, String phoneNo, Role role, String nationality, String passportNo, Gender gender, Date DOB)
+    public Passenger(String firstName, String surname, String email, String username, String password, String Id, String phoneNo, Role role, String nationality, String passportNo, Gender gender, Date DOB)
     {
-        super(firstName, lastName, email, username, password, Id, phoneNo, role);
+        this.firstName = firstName;
+        this.surname = surname;
+        this.email = email;
         this.Id = Id;
+        this.phoneNo = phoneNo;
         this.nationality = nationality;
         this.passportNo = passportNo;
         this.gender = gender;
