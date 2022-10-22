@@ -12,9 +12,9 @@ public record Booking(int ID, String PNR, List<Ticket> tickets, Client client) {
 //    Ticket<List>
 //    Client
 
-
-enum Client{AGENCY_SALES_PERSON, AIRLINE_SALES_PERSON, CUSTOMER}
-
-//    Agency Sales Person
-//    Airline Sales
-//    Customer
+//    Moved to Client Class
+//    enum Client{AGENCY_SALES_PERSON, AIRLINE_SALES_PERSON, CUSTOMER}
+//
+//    //    Agency Sales Person
+//    //    Airline Sales
+//    //    Customer
