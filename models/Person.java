@@ -5,19 +5,19 @@ import java.util.ArrayList;
 
 public class Person
 {
-    protected String firstName, lastName, email, username, password, phoneNo;
-    protected String Id;
-    protected Role role;
+    private String firstName, lastName, email, username, password, phoneNo;
+    private String Id;
+    private Role role;
 
     // Agency Admin, Agency Sales Person
-    protected Agency agency = null;
+    private Agency agency = null;
 
     // Airline Manager, Airline Admin, Airline Sales Person, Airline Accountant
     private Airline airline = null;
 
     // Airline and Agency Sales Person
-    protected double point;
-    protected Image profilePic;
+    private double point;
+    private Image profilePic;
 
     // Customer
     private String nationality = null;
