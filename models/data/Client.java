@@ -1,12 +1,16 @@
 package models.data;
 
 public class Client {
-    int ID;
+    private int ID;
     String type;
 
     public Client(int ID, String type) {
         this.ID = ID;
         this.type = type;
+    }
+
+    public int getID() {
+        return ID;
     }
 }
 
