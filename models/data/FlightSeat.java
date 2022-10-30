@@ -1,4 +1,4 @@
-package models;
+package models.data;
 public class FlightSeat extends Seat
 {
     private double price;
