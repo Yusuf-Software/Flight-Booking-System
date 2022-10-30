@@ -1,8 +1,9 @@
 package models.data; //package models;
 
+import java.io.Serializable;
 import java.util.List;
 
-public record Airline(int ID, String name, List<Flight> flights) {
+public record Airline(int ID, String name) implements Serializable {
 
 }
 

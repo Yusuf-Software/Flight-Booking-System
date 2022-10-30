@@ -1,5 +1,8 @@
 package models.data; //package models;
-public record City(int ID, String name, Country country) {
+
+import java.io.Serializable;
+
+public record City(int ID, String name, Country country) implements Serializable {
 
 }
 

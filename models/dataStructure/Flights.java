@@ -5,10 +5,12 @@ import models.data.Flight;
 import models.data.Schedule;
 import models.data.Seat;
 
+import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 
-public class Flights {
-    List<Flight> flights;
+public class Flights implements Serializable {
+    List<Flight> flights = new ArrayList<>();
 
     void addFlight(int ID, String flightNo, Airline airline, int seatCapacity, List<Seat> seats, List<Schedule> schedule) {
         Flight f = new Flight(ID, flightNo, airline, seatCapacity, seats, schedule);

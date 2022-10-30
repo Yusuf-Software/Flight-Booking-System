@@ -3,10 +3,12 @@ package models.dataStructure;
 import models.data.ClassName;
 import models.data.FlightSeat;
 
+import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 
-public class FlightSeats {
-    List<FlightSeat> flightSeats;
+public class FlightSeats implements Serializable {
+    List<FlightSeat> flightSeats = new ArrayList<>();
     int seatCapacity;
     int availableSeats;
 

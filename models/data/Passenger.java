@@ -1,10 +1,11 @@
 package models.data;
+import java.io.Serializable;
 import java.util.Date;
 
-public class Passenger
+public class Passenger implements Serializable
 {
-    private String Id ,nationality, passportNo, firstName, surname, phoneNo, email;
-    private final Gender gender;
+    private String Id ,nationality, passportNo, firstName, surname, phoneNo, email, gender;
+//    private final Gender gender;
     private final Date DOB;
 
     public String getId()
@@ -36,7 +37,7 @@ public class Passenger
     {
         return email;
     }
-    public Gender getGender()
+    public String getGender()
     {
         return gender;
     }
@@ -44,7 +45,7 @@ public class Passenger
     {
         return DOB;
     }
-    public Passenger(String firstName, String surname, String email, String username, String password, String Id, String phoneNo, Role role, String nationality, String passportNo, Gender gender, Date DOB)
+    public Passenger(String firstName, String surname, String email, String username, String password, String Id, String phoneNo, Role role, String nationality, String passportNo, String gender, Date DOB)
     {
         this.firstName = firstName;
         this.surname = surname;
@@ -58,4 +59,4 @@ public class Passenger
     }
 }
 
-enum Gender{MALE, FEMALE}
+//enum Gender{MALE, FEMALE}

@@ -3,12 +3,13 @@ package models.dataStructure;
 import models.data.Agency;
 import models.data.Person;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Agencies {
-    List<Agency> agencies;
+public class Agencies implements Serializable {
+    List<Agency> agencies = new ArrayList<>();
 
     public Agencies(List<Agency> agencies) {
         this.agencies = agencies;

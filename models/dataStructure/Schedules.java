@@ -4,11 +4,14 @@ import models.data.Airport;
 import models.data.Flight;
 import models.data.FlightSeat;
 import models.data.Schedule;
+
+import java.io.Serializable;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
 
-public class Schedules {
-    List<Schedule> schedules;
+public class Schedules implements Serializable {
+    List<Schedule> schedules = new ArrayList<>();
 
 
     //Schedule(Flight flight, Airport departureAirport, Airport arrivalAirport, LocalDateTime departureDateTime, LocalDateTime arrivalDateTime, Status status, List<FlightSeat> fare)

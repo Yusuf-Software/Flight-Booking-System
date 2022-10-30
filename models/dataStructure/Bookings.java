@@ -4,10 +4,12 @@ import models.data.Booking;
 import models.data.Client;
 import models.data.Ticket;
 
+import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 
-public class Bookings {
-    List<Booking> bookings;
+public class Bookings implements Serializable {
+    List<Booking> bookings = new ArrayList<>();
 
     void addBooking(int ID, String PNR, List<Ticket> tickets, Client client) {
         Booking b = new Booking(ID, PNR, tickets, client);

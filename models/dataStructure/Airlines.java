@@ -3,11 +3,12 @@ package models.dataStructure;
 import models.data.Airline;
 import models.data.Flight;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Airlines {
-    List<Airline> airlines;
+public class Airlines  implements Serializable {
+    List<Airline> airlines = new ArrayList<>();
 
     void addAirline(int ID, String name) {
         Airline a = new Airline(ID, name);

@@ -1,8 +1,11 @@
 package models.data;
-public class Seat
+
+import java.io.Serializable;
+
+public class Seat implements Serializable
 {
     protected String Id, seatNo;
-    protected ClassName  className;
+    protected ClassName className;
 
     public Seat(String Id, String seatNo, ClassName className)
     {
@@ -10,8 +13,4 @@ public class Seat
         this.seatNo = seatNo;
         this.className = className;
     }
-
-    enum ClassName{ECONOMY, BUSINESS, FIRST_CLASS}
 }
-
-

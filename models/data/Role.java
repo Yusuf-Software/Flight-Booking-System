@@ -1,16 +1,13 @@
 package models.data;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class Role {
-    int ID;
-    String role;
 
-    public Role(int ID, String role) {
-        this.ID = ID;
-        this.role = role;
+    public record Role(int ID, String name) implements Serializable {
+
     }
-}
+
 
 
 // Roles to be created

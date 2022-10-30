@@ -1,8 +1,9 @@
 package models.data; //package models;
 
+import java.io.Serializable;
 import java.util.List;
 
-public record Booking(int ID, String PNR, List<Ticket> tickets, Client client) {
+public record Booking(int ID, String PNR, List<Ticket> tickets, Client client) implements Serializable {
 
 }
 

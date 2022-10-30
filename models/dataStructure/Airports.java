@@ -3,11 +3,12 @@ package models.dataStructure;
 import models.data.Airport;
 import models.data.City;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Airports {
-    List<Airport> airports;
+public class Airports implements Serializable {
+    List<Airport> airports = new ArrayList<>();
 
     void addAirport(int ID, City city, String name, String code) {
         Airport a = new Airport(ID, city, name, code);

@@ -3,14 +3,19 @@ package models.dataStructure;
 import models.data.City;
 import models.data.Country;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Cities {
+public class Cities implements Serializable {
 
-    List<City> cities;
+    private List<City> cities = new ArrayList<>();
 
-    void addCity(int ID, String name, Country country)
+    public String toString() {
+        return cities.toString();
+    }
+
+    public void addCity(int ID, String name, Country country)
     {
         City c = new City(ID, name, country);
         cities.add(c);
@@ -24,6 +29,11 @@ public class Cities {
             }
         }
         return null;
+    }
+
+    public City getCityByIndex(int index)
+    {
+        return cities.get(index);
     }
 
     void deleteCityByName(String cityName) {

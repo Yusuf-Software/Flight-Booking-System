@@ -3,11 +3,12 @@ package models.dataStructure;
 import models.data.*;
 
 import java.awt.*;
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class People {
-    List<Person> people;
+public class People implements Serializable {
+    List<Person> people = new ArrayList<>();
 
     void addPerson(String firstName, String lastName, String email, String username, String password, String Id, String phoneNo, Role role, Airline airline, Agency agency, String nationality, Double point, Image profilePic) {
         Person p = new Person(firstName, lastName, email, username, password, Id, phoneNo, role, airline, agency, nationality, point, profilePic);
