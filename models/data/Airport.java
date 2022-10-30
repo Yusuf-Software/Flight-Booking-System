@@ -1,6 +1,4 @@
-package models; //package models;
-import models.City;
-import models.Flight;
+package models.data; //package models;
 
 import java.util.List;
 

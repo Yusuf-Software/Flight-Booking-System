@@ -1,4 +1,4 @@
-package models;
+package models.data;
 public class Seat
 {
     protected String Id, seatNo;

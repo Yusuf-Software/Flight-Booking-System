@@ -1,15 +1,12 @@
-package models; //package models;
+package models.data; //package models;
 
-
-import java.time.LocalDateTime;
-import java.util.List;
 
 public record Agency(String agencyCode, String Name, Person agencyAdmin, String email, String phone, String web, String address) {
 
     }
-//        models.Agency Code
-//        models.Agency Name
-//        models.Agency Manager
+//        models.data.Agency Code
+//        models.data.Agency Name
+//        models.data.Agency Manager
 //        E-mail
 //        Office Phone
 //        Web address
