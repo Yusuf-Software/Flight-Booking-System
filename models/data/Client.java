@@ -1,18 +1,10 @@
 package models.data;
 
-public class Client {
-    private int ID;
-    String type;
+import java.io.Serializable;
 
-    public Client(int ID, String type) {
-        this.ID = ID;
-        this.type = type;
-    }
+public record Client(int ID, String type) implements Serializable {}
 
-    public int getID() {
-        return ID;
-    }
-}
+
 
 // Client types to be created to be created
 

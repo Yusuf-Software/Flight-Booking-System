@@ -4,10 +4,12 @@ import models.data.Flight;
 import models.data.Passenger;
 import models.data.Ticket;
 
+import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 
-public class Tickets {
-    List<Ticket> tickets;
+public class Tickets implements Serializable {
+    List<Ticket> tickets = new ArrayList<>();
 
     void addTicket(int ID, List<Flight> flights, List<Passenger> passengers) {
         Ticket t = new Ticket(ID, flights, passengers);

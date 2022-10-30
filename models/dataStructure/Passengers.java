@@ -2,11 +2,13 @@ package models.dataStructure;
 
 import models.data.Passenger;
 import models.data.Role;
+
+import java.io.Serializable;
 import java.util.*;
 
 
-public class Passengers {
-    List<Passenger> passengers;
+public class Passengers implements Serializable {
+    List<Passenger> passengers = new ArrayList<>();
 
     void addPassenger(String firstName, String surname, String email, String username, String password, String Id, String phoneNo, Role role, String nationality, String passportNo, String gender, Date DOB){
         Passenger p = new Passenger(firstName, surname, email, username, password, Id, phoneNo, role, nationality, passportNo, gender, DOB);

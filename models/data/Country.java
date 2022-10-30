@@ -1,6 +1,8 @@
 package models.data;
 
-public record Country(int ID, String name, String code) {
+import java.io.Serializable;
+
+public record Country(int ID, String name, String code) implements Serializable {
 
 }
 //    Country Code

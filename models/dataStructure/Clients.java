@@ -16,7 +16,7 @@ public class Clients implements Serializable {
     }
 
     void removeClient(int ID) {
-        clients.removeIf(client -> client.getID() == ID);
+        clients.removeIf(client -> client.ID() == ID);
     }
 
 //    void updateClientByID(int cityID, City city) {
@@ -26,14 +26,14 @@ public class Clients implements Serializable {
 
 
     void updateClientByID(int clientID, Client client) {
-        clients.removeIf(c -> c.getID() == clientID);
+        clients.removeIf(c -> c.ID() == clientID);
         clients.add(client);
     }
 
 
     Client getClient(int ID) {
         for (Client c : clients) {
-            if (c.getID() == ID) {
+            if (c.ID() == ID) {
                 return c;
             }
         }
