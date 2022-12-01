@@ -57,10 +57,67 @@ public class Person implements Serializable
             this.bookingList = bookingList;
         }
     }
+
+    public String toString()
+    {
+        return "firstName: "+firstName+"\nlastName "+lastName
+                +"\nemail: "+email+"\nusername: "+username+"\npassword: "+password+"\nId: "+Id+"\nphoneNo: "+phoneNo+"\nrole: "+role
+                +"\nairline: "+airline+"\nagency: "+agency;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public String getPhoneNo() {
+        return phoneNo;
+    }
+
+    public String getId() {
+        return Id;
+    }
+
+    public Role getRole() {
+        return role;
+    }
+
+    public Agency getAgency() {
+        return agency;
+    }
+
+    public Airline getAirline() {
+        return airline;
+    }
+
+    public double getPoint() {
+        return point;
+    }
+
+    public Image getProfilePic() {
+        return profilePic;
+    }
+
+    public String getNationality() {
+        return nationality;
+    }
+
+    public ArrayList<Booking> getBookingList() {
+        return bookingList;
+    }
 }
-//enum Role
-//{
-//    CUSTOMER, AIRLINE_MANAGER, AIRLINE_ADMIN,
-//    AIRLINE_SALES_PERSON, AIRLINE_ACCOUNTANT,
-//    AGENCY_ADMIN, AGENCY_SALES_PERSON
-//}

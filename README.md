@@ -91,7 +91,7 @@ This is for just one airline who wants to sell seats to their customers via inte
 5. When the customer selects the seat and confirms the booking flight Itinerary should be shown to the customer.
 6. When the customer approves the itinerary the customer should be taken to a payment page where the total price should be shown. When the customer presses the pay button consider the transaction done and mark the seat sold.
 7. Once the seat is sold, send out an email to the customer with the flight itinerary.
-8. Customers must have to register in the application to view their booking history or book a new ticket.
+8. Customers must have to register in the application to badViews their booking history or book a new ticket.
 9. Customers can also cancel their tickets (under certain conditions).
 
 

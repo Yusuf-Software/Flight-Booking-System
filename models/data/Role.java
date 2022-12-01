@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.List;
 
 
-    public record Role(int ID, String name) implements Serializable {
+    public record Role(String ID, String name) implements Serializable {
 
     }
 

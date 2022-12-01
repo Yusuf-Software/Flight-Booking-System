@@ -3,7 +3,7 @@ package models.data; //package models;
 import java.io.Serializable;
 import java.util.List;
 
-public record Airline(int ID, String name) implements Serializable {
+public record Airline(String ID, String name) implements Serializable {
 
 }
 
